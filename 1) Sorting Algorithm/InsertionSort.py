@@ -9,7 +9,7 @@ class InsertionSort:
                 arr[prev + 1] = arr[prev]
                 prev = prev - 1
 
-                #Put key at its correct position
+                #Put curr value at its correct position
                 arr[prev + 1] = curr
 
         return arr
